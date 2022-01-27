@@ -20,7 +20,7 @@
 - Portifólio
     - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/portifolio.html)
     - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/portifolio.html)
-### Desafio 05
+### Desafio 06
 - Tegs
     - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/tegs%20em%20html%20index.html)
     - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/tegs%20em%20html%20index.html)
