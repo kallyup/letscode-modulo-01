@@ -40,3 +40,6 @@
 - html básico Q3
     - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/formul%C3%A1rio%20index.html)
     - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/formul%C3%A1rio%20index.html)
+- Primeiras tags
+    - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/atv%20index.html)
+    - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/atv%20index.html)
