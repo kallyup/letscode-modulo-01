@@ -30,8 +30,7 @@
     - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/recriando%20site%20index.html)
 - site Q2
     - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/concertando%20site%20index.html)
-<<<<<<< HEAD
     - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/concertando%20site%20index.html)
-=======
-    - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/concertando%20site%20index.html)
->>>>>>> 1dfcea44407fe3f3a4ce1ba133fa8b2587e25473
+- html básico Q1
+    - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/bot%C3%A3o%20index.html)
+    - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/bot%C3%A3o%20index.html)
