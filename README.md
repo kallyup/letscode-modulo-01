@@ -24,7 +24,10 @@
 - Tags
     - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/tegs%20em%20html%20index.html)
     - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/tegs%20em%20html%20index.html)
-### Exercicio Q1
-- site
+### Exercicio 
+- site Q1
     - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/recriando%20site%20index.html)
     - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/recriando%20site%20index.html)
+- site Q2
+    - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/concertando%20site%20index.html)
+    -[visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/concertando%20site%20index.html)
