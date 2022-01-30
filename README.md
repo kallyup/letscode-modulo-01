@@ -21,6 +21,10 @@
     - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/portifolio.html)
     - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/portifolio.html)
 ### Desafio 06
-- Tegs
+- Tags
     - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/tegs%20em%20html%20index.html)
     - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/tegs%20em%20html%20index.html)
+### Exercicio Q1
+- site
+    - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/recriando%20site%20index.html)
+    - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/recriando%20site%20index.html)
