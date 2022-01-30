@@ -34,3 +34,6 @@
 - html básico Q1
     - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/bot%C3%A3o%20index.html)
     - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/bot%C3%A3o%20index.html)
+- html básico Q2
+    - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/tabela%20index.html)
+    - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/tabela%20index.html)
