@@ -46,4 +46,4 @@
 ### Desafio 7
 - Redimensionando
     - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/desafio%20index.html)
-    - [vpisualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/desafio%20index.html)
+    - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/desafio%20index.html)
