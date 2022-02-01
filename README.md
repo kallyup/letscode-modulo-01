@@ -47,3 +47,7 @@
 - Redimensionando
     - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/desafio%20index.html)
     - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/desafio%20index.html)
+### Desafio 8
+- Links para outras páginas
+    - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/desafio%208%20index.html)
+    - [visualizar](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/desafio%208%20index.html)
