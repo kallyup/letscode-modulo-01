@@ -1,0 +1,55 @@
+body{
+    display: grid;
+    grid-template-columns: auto;
+    border: 25px;
+    margin: 25px;
+    background-color: rgb(201, 22, 22);
+    border-style: hidden;
+}
+.grid{
+    display: grid;
+    grid-template-columns:repeat(3 20%) 40%;
+    border: solid;
+    border-color: black;
+    border: 20px;
+    border-style: double;
+    grid-template-rows: 1fr 2fr 1fr;
+    background-color: blue;
+}
+.header{
+    background-color: rgb(243, 10, 10);
+    justify-content: center;
+    border-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    grid-area: span;
+    align-items: flex-end;
+    border: 10px;
+    border-style: dotted;
+}
+.titulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    background-color: aqua;
+    font-style: italic;
+    font-display: flex;
+
+}
+.subtitulo{
+    font-weight: 200;
+    font-variant: small-caps;
+    font-kerning: initial;
+    font: bolder;
+    border-bottom: 10px;
+    background-position: 50px;
+    background-color: rgb(30, 184, 56);
+    box-sizing: border-box;
+    border-style: groove;
+}
+.indice{
+    align-items: center;
+    grid-column: auto;
+    color: #000;
+    background-color: rgb(173, 40, 185);
+    
+
+}
