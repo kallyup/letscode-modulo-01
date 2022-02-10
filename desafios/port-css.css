@@ -1,0 +1,152 @@
+.grid{
+    display: grid;
+    height: 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 1fr 1fr;
+
+}
+.grid-temp-1{
+    grid-template-columns: 1fr 2fr;
+    
+}
+header{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 0%;
+border: 0%;
+padding: 0px 0px;
+text-align: center;
+
+
+}
+
+header h1 {
+    padding-top: 100px;
+    padding-bottom: 0;
+  }
+
+header .imagemCapa {
+    position: absolute;
+    background: #333
+        url("https://raw.githubusercontent.com/kallyup/letscode-modulo-01/main/desafios/imagens/mulheres.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+aside{
+background-color: blue;
+}
+main{
+background-color: blueviolet;
+}
+
+.coluna{
+    flex-direction: space-around;
+}
+footer{
+background-color: black;
+}
+/*efeito de slide*/
+.slide-container{
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.image-container{
+    width: 2400px;
+    height: 600px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+}
+
+.imagem-slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.botao-container {
+    top: -20px;
+    position: relative;
+}
+
+.botao-slide {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#slide-image-1:target ~ .conteiner-slide{
+    left: 0px;
+}
+#slide-image-2:target ~ .conteiner-slide{
+    left: -800px;
+}
+
+#slide-image-3:target ~ .conteiner-slide{
+    left: -1600px;
+}
+
+
+
+
+.grid {
+	display: grid;
+    height: 100%;
+    grid-template-columns: repeat(6 1fr);
+    grid-template-rows: 25%;
+
+}
+
+.logo {
+	grid-area: logo;
+    background-color: black;
+    
+}
+
+.nav {
+	grid-area: nav;
+    background-color: blueviolet;
+}
+
+.content {
+	grid-area: content; 
+    background-color: aqua;
+
+}
+
+.sidenav {
+	grid-area: sidenav;
+    background-color: coral;
+}
+
+.advert {
+	grid-area: advert;
+    background-color: deeppink;
+}
+
+.footer {
+	grid-area: footer;
+    background-color: darkgreen;
+}
+
+.grid-template-areas-1 {
+	grid-template-areas:
+		"logo nav nav" 150px
+		"sidenav content advert"
+		"sidenav footer footer"
+		;
+}

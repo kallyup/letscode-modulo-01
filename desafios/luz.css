@@ -1,0 +1,42 @@
+.container{
+    background-color: #123e4c;
+    display: block;
+
+}
+.img{
+    height: 200px;
+    width: 200px;
+
+background:white;
+border-radius: 60%;
+-webkit-filter: grayscale(100%);
+margin: auto;
+display: block;
+
+}
+.img:hover{
+    -webkit-filter: grayscale(0%);
+    transition: 1s;
+}
+.botao{
+   
+    -webkit-filter: grayscale(100%);
+    font-family: sans-serif;
+   text-decoration: none;
+    text-align: left;
+    color:#3d3d3d ;
+ 
+
+}
+.botao:hover{
+    color: #DEDEDE;
+    -webkit-filter: grayscale(0%);
+    
+}
+.luz2{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 60%;
+    margin: auto;
+}
