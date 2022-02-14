@@ -1,0 +1,304 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow: break-word;
+}
+
+.principal{
+    width: 100%;
+    margin: auto;
+}
+.header, .conteudo2, conteudo3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 6 0vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+h1{
+    font-size: 75px;
+    text-align: center;
+    color: #fff
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.header h2 {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    text-decoration: overline;
+}
+
+.img1 {
+    border-radius: 20%;
+    border: solid rgba(136, 95, 79, 0.301); 
+    margin: 5%;
+    max-width: 100%;
+    -moz-transition: all 0.3;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3S;
+    
+}
+.img1:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+
+h1{
+    font-size: 75px;
+    text-align: center;
+    color: #fff;
+}
+.header h2 {
+    color: #fff;
+    text-align: center;
+    text-decoration: overline;
+    
+}
+
+@media screen and (max-width: 3840px) {
+    .img1 {
+        width: 250px;
+        height: 270px;
+        position: absolute;
+        margin: 5%;          
+    }
+    h1{
+        font-size: 75px;
+    }
+    .header h2 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .img1 {
+        width: 150px;
+        height: 170px;
+        position: relative;   
+        margin-left: auto;
+        margin-right: auto; 
+    }
+     
+    .header h2 {
+        font-size: 50px;
+    }
+    h1{
+        font-size: 75px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .img1 {
+        width: 150px;
+        height: 170px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1{
+        font-size: 55px;
+    }
+    .header h2 {
+        font-size: 30px;
+    }
+    
+}
+
+
+ main{
+    display: block;
+}
+
+section.conteudo2:last-child{
+    margin-bottom: 0px;
+}
+section.conteudo2{
+    
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+}
+section.conteudo2 table, section.conteudo2 ul {
+    list-style: none;
+    margin: 0.5em;
+    margin-top: 25px;
+    padding: 0%;
+    grid-column: 2/4;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.conteudo2 li {
+    margin-bottom: 1em;
+    background: rgb(255,255,255);
+    color: rgb(10, 10, 10);
+    perspective: 1000;
+    border-radius: 20px;
+}
+section.conteudo2 img{
+    border-radius: 20px;
+    position: relative;
+
+}
+section.conteudo2 li:hover .card, .conteudo2 li.hover .card{
+    transform: rotateY(180deg); 
+}
+
+.card{
+    transition: 0.6s;  	
+    transform-style: preserve-3d;    	
+    position: relative; 
+}
+
+.frente,.tras{
+    backface-visibility: hidden;
+    position: absolute;
+}
+.frente{
+    z-index: 2;
+}
+.tras{
+    transform: rotateY(180deg);
+}
+.textot{
+    padding: 1.5em;
+}
+
+@media screen and (max-width: 3840px) {
+    section.conteudo2{
+        padding: 40px 0;
+        font-size: 15px;
+    }
+    section.conteudo2 li{
+        width: 250px;
+        height: 270px;
+    }
+    section.conteudo2 img{
+        width: 250px;
+        height: 270px;  
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    section.conteudo2{
+        padding: 30px 0;
+        font-size: 13px;
+    }
+    
+    section.conteudo2 li {
+        width: 200px;
+        height: 300px;
+    }
+    section.conteudo2 img{
+        width: 200px;
+        height: 300px;    
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section.conteudo2{
+        padding: 30px 0;
+        font-size: 13px;
+    }
+    
+    section.conteudo2 li {
+        width: 130px;
+        height: 300px;
+    }
+    section.conteudo2 img{
+        width: 130px;
+        height: 300px;    
+    }
+}
+
+  
+section.conteudo2{
+    background-image: url("https://cdn.pixabay.com/photo/2021/01/24/23/10/couple-5946815_960_720.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section.header{
+    background-image:url("https://www.supero.com.br/wp-content/uploads/2021/09/escolher-linguagens-de-programa%C3%A7%C3%A3o-em-baixa.jpg"); 
+}
+
+  
+section.conteudo3{
+    background-image: url("https://cdn.pixabay.com/photo/2020/06/12/20/33/decision-5291766_960_720.jpg");
+}
+  
+.barra1, .barra2, .footer{
+    padding: 40px 0;
+    background: linear-gradient(72deg, #06b139 1%, #2a09e299);
+    text-align: start;
+    text-decoration: none;
+}
+.barra1 li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-variant: small-caps ;
+    color: #020202;
+    font-weight: bold;
+    text-align: center;
+    list-style: none;
+}
+.barra2 li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-variant: small-caps ;
+    color: #020202;
+    font-weight: bold;
+    text-align: center;
+    list-style: none;
+}
+.footer{
+    padding: 40px 0;
+    background: linear-gradient(72deg, #06b139 1%, #2a09e299);
+    text-align: center;
+    
+}
+.links {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 0%;
+  }
+.footer button{
+    text-decoration: none;
+    
+}
+.imag{
+    background: linear-gradient(72deg, #06b139 1%, #2a09e299);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    -webkit-filter: grayscale(100%);
+    display: block;
+}
+.imag:hover{
+    -webkit-filter: grayscale(0%);
+    transition: 1s;
+}
+.luz{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
