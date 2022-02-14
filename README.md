@@ -1,5 +1,5 @@
 # Curso da Let's Code
-## Desafios
+## Desafios HTML
 ### Desafio 01
 -  Colocando uma linha em baixo da outra sem usar `<br>`  
     - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/desafio%201%20index.html)
@@ -57,5 +57,11 @@
     - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/desafio%209%20index.html)
 ### Atividade CSS Box
 - Luz e Botão
-    -[código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/atv%20css%20index.html)
-    -[visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/atv%20css%20index.html)
+    - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/atv%20css%20index.html)
+    - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/atv%20css%20index.html)
+# Curso da Let's Code
+## Desafios jS
+### Desafio 1
+- Calculadora
+    - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/calculadora%20index.html)
+    - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/calculadora%20index.html)
