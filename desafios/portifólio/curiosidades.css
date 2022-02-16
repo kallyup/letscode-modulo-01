@@ -27,13 +27,15 @@ body{
     background: linear-gradient(72deg, #06b139 1%, #2a09e299);    
 }
 .img1 {
-    border-radius: 50%;
-    border: solid rgba(136, 95, 79, 0.301); 
+    border-radius: 50%;  
     margin: 5%;
     max-width: 100%;
     -moz-transition: all 0.3;
     -webkit-transition: all 0.3s;
     transition: all 0.3S;   
+    box-shadow: 0 0 1em #0f0f0f;
+   
+    
 }
 .img1:hover{
     -moz-transform: scale(1.1);
@@ -173,7 +175,11 @@ section.conteudo2 li:hover .card, .conteudo2 li.hover .card{
 .flip-container {
     width: 300px;
     height: 200px;
-    perspective: 1000px;
+    perspective: 100px;
+    position: absolute;
+    margin-left: 300px;
+    font-size: 39px;
+    margin-top: 20px;
 
 }
 .flipper{
@@ -186,10 +192,16 @@ section.conteudo2 li:hover .card, .conteudo2 li.hover .card{
 }
 .back{
 	transform: rotateY(180deg);
-    background-color: #06b139;
 }
-.front{
-    background-color: #a80c67;
+.back p{
+    background: linear-gradient(72deg, #06b139 1%, #2a09e299);
+    margin: auto;
+    border-radius: 10px;
+}
+.front p{
+    background: linear-gradient(72deg, #06b139 1%, #2a09e299);
+    margin: auto;
+    border-radius: 10px;
 }
 .front, .back{
     position: absolute;
@@ -198,3 +210,12 @@ section.conteudo2 li:hover .card, .conteudo2 li.hover .card{
     backface-visibility: hidden;
     text-align: center;
   }
+iframe{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: auto;
+    overflow-y: hidden;
+
+}

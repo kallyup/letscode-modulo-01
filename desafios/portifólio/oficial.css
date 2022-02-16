@@ -5,13 +5,14 @@ body{
     font-family: sans-serif;
     word-wrap: break-word;
     overflow: break-word;
+    
 }
 
 .principal{
     width: 100%;
     margin: auto;
 }
-.header, .conteudo2, conteudo3{
+.header, .conteudo2, .conteudo3{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,12 +48,12 @@ h2{
 
 .img1 {
     border-radius: 20%;
-    border: solid rgba(136, 95, 79, 0.301); 
     margin: 5%;
     max-width: 100%;
     -moz-transition: all 0.3;
     -webkit-transition: all 0.3s;
-    transition: all 0.3S;
+    transition: all 0.3S; 
+    box-shadow: 0 0 1em #21d1f0;
     
 }
 .img1:hover{
@@ -269,24 +270,34 @@ section.conteudo3{
     text-align: center;
     list-style: none;
 }
+.conteudo3 img{
+ display: flex;
+ padding: auto;
+ 
+}
 .footer{
     padding: 40px 0;
     background: linear-gradient(72deg, #06b139 1%, #2a09e299);
     text-align: center;
+    margin: auto;
     
 }
 .links {
     width: 40px;
     height: 40px;
     position: relative;
-    border-radius: 0%;
+   
+  }
+.footer table{
+    margin: auto;
+     margin-top: 10px; 
   }
 .footer button{
     text-decoration: none;
     
 }
 .imag{
-    background: linear-gradient(72deg, #06b139 1%, #2a09e299);
+    background: linear-gradient(72deg, #a80c67 1%, #dac407cb);
     width: 100px;
     height: 100px;
     border-radius: 50%;
