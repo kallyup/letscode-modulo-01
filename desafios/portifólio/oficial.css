@@ -270,11 +270,42 @@ section.conteudo3{
     text-align: center;
     list-style: none;
 }
-.conteudo3 img{
+/*.conteudo3 img{
  display: flex;
  padding: auto;
  
+}*/
+.flip-container {
+    width: 300px;
+    height: 200px;
+    perspective: 100px;
+    position: relative;
+    margin-left: 200px;
+    font-size: 39px;
+
 }
+.flipper{
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+.flip-container:hover .flipper{
+	transform: rotateX(180deg);
+    perspective: 1000px;
+}
+.back{
+	transform: rotateX(180deg);
+}
+.front {   
+  
+}
+.front, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
 .footer{
     padding: 40px 0;
     background: linear-gradient(72deg, #06b139 1%, #2a09e299);

@@ -65,3 +65,7 @@
 - Calculadora
     - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/calculadora%20index.html)
     - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/calculadora%20index.html)
+### Desafio 2
+- Comparador
+    - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/exercicio%20index.html)
+    - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/exercicio%20index.html)
