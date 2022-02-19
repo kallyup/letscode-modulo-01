@@ -69,3 +69,8 @@
 - Comparador
     - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/desafios/exercicio%20index.html)
     - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/desafios/exercicio%20index.html)
+### Desafio 3
+- Condicionais 
+    - [código](https://github.com/kallyup/letscode-modulo-01/blob/main/l%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20exemplos/condicionais%20idex.html)
+    - [visualizar](https://raw.githack.com/kallyup/letscode-modulo-01/main/l%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20exemplos/condicionais%20idex.html)
+

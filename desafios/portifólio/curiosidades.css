@@ -58,8 +58,8 @@ h1{
 }
 @media screen and (max-width: 3840px) {
     .img1{
-        width: 250px;
-        height: 270px;
+        width: 230px;
+        height: 230px;
         position: absolute;  
         margin-top: 5%;
         margin-left: 3%;
@@ -74,7 +74,7 @@ h1{
 @media screen and (max-width: 1024px) {
     .img1{
         width: 150px;
-        height: 170px;
+        height: 150px;
         position: relative;  
         margin-left: auto;
         margin-right: auto;
@@ -90,7 +90,7 @@ h1{
 @media screen and (max-width: 720px) {
     .img1{
         width: 150px;
-        height: 170px;
+        height: 150px;
         position: relative;  
         margin-left: auto;
         margin-right: auto;
@@ -137,18 +137,18 @@ section.conteudo2 li {
     margin-bottom: 1em;
     background: rgb(255,255,255);
     color: rgb(10, 10, 10);
-    width: 250px;
-    height: 270px;
+    /*width: 250px;
+    height: 270px;*/
     perspective: 1000;
     border-radius: 20px;
-}
+}/*
 section.conteudo2 img{
     border-radius: 20px;
     width: 250px;
     height: 270px;
     position: relative;
 
-}
+}*/
 section.conteudo2 li:hover .card, .conteudo2 li.hover .card{
     transform: rotateY(180deg); 
 }
@@ -172,16 +172,65 @@ section.conteudo2 li:hover .card, .conteudo2 li.hover .card{
 .textot{
     padding: 1.5em;
 }
+section.footer{
+    display:flex ;
+    grid-area: rodape;
+    justify-content: space-evenly;
+    /*width: 100%;
+    height: 100%;*/
+}
 .flip-container {
     width: 300px;
     height: 200px;
     perspective: 100px;
-    position: absolute;
-    margin-left: 200px;
-    font-size: 39px;
-    margin-top: 20px;
-
+    position: relative;
+    /*font-size: 39px;*/
 }
+
+@media screen and (max-width: 3840px) {
+    .flip-container p {
+        font-size: 39px;
+    }
+    .flip-container h3{
+        font-size: 39px;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 1024) {
+    .flip-container p {
+        font-size: 29px;
+    }
+    .flip-container h3{
+        font-size: 29px;
+        color: #fff;
+    }
+    section.footer{
+        display:flex ;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        /*width: 100%;
+        height: 100%;*/
+    }
+}
+
+@media screen and (max-width: 600) {
+    .flip-container p {
+        font-size: 19px;
+    }
+    .flip-container h3{
+        font-size: 19px;
+        color: #fff;
+    }
+    section.footer{
+        display:flex ;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        /*width: 100%;
+        height: 100%;*/
+    }
+}
+
 .flipper{
 	width: 100%;
 	height: 100%;
@@ -197,11 +246,13 @@ section.conteudo2 li:hover .card, .conteudo2 li.hover .card{
     background: linear-gradient(72deg, #06b139 1%, #2a09e299);
     margin: auto;
     border-radius: 10px;
+    color: #fff;
 }
 .front p{
     background: linear-gradient(72deg, #06b139 1%, #2a09e299);
     margin: auto;
     border-radius: 10px;
+    color: #fff;
 }
 .front, .back{
     position: absolute;
@@ -210,12 +261,93 @@ section.conteudo2 li:hover .card, .conteudo2 li.hover .card{
     backface-visibility: hidden;
     text-align: center;
   }
-iframe{
-    position: relative;
-    display: flex;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-left: auto;
-    overflow-y: hidden;
 
+@media screen and (max-width: 3840px) {
+    section.conteudo2{
+        padding: 40px 0;
+        font-size: 15px;
+    }
+    section.conteudo2 li{
+        width: 250px;
+        height: 270px;
+        border-radius: 20%;
+    }
+    section.conteudo2 img{
+        width: 250px;
+        height: 270px;  
+        border-radius: 20%;
+    }
+    section.gif img {
+        position: relative;  
+        margin-top: 3%;
+        width: 450px;
+    }
+    section.forms1 iframe{
+        position: relative;
+        width: 350px;
+    }
+    section.footer p{
+        font-size: 39px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    section.conteudo2{
+        padding: 30px 0;
+        font-size: 13px;
+    }
+    
+    section.conteudo2 li {
+        width: 200px;
+        height: 300px;
+        border-radius: 20%;
+    }
+    section.conteudo2 img{
+        width: 200px;
+        height: 300px;    
+        border-radius: 20%;
+    }
+    section.gif img {
+        position: relative;  
+        margin-top: 3%;
+        width: 350px;
+    }
+    section.forms1 iframe{
+        position: relative;
+        width: 250px;
+    }
+    section.footer p{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section.conteudo2{
+        padding: 30px 0;
+        font-size: 11px;
+    }
+    section.conteudo2 li {
+        width: 130px;
+        height: 300px;
+        border-radius: 20%;
+    }
+    section.conteudo2 img{
+        width: 130px;
+        height: 300px;    
+    }
+    section.gif img {
+        position: relative;  
+        margin-top: 3%;
+        width: 200px;
+    }
+    section.forms1 iframe{
+        position: relative;
+        width: 150px;
+    }
+    section.footer p{
+        font-size: 15px;
+    }
+    section.footer h3{
+        font-size: 25px;
+    }
 }
