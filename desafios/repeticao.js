@@ -1,5 +1,5 @@
 console.log("---repetição---")
-
+//decrescente 50-1
 /*let inicial = 50;
 let final = 1;
 while(inicial >= final){
@@ -7,13 +7,14 @@ while(inicial >= final){
     inicial--;
 }
 document.write("<hr>")
-
+//números pares
 let ini = 0;
 let fin= 100;
 while(ini <= fin){
     document.write(ini, " ")
     ini+=2;
 }
+//tracinho entre números
 document.write("<hr>")
 let i = 99;
 let f = 1 
@@ -139,15 +140,57 @@ console.log('fim')
          console.log("fim")
          loop=false;
      }
- }*/
+ }
+ ///quadrado *
  let ast= parseInt(prompt("informe o valor"));
   for(let i=0; i<=ast; i++){
       document.write("*");
       console.log("*  ")
   }
-for(let lin=0;lib<5;lin++){
+for(let lin=0;lin<5;lin++){
     for(let col=0; col<10; col++){
         document.write("*")
     }
     document.write("<br>")
+}
+//escada *
+for (let lin=1; lin<=10;lin++){
+    for(let col=0; col<lin; col++){
+        document.write("*");
+       // console.log("*")
+    }
+    document.write("<br>");
+    
+}
+//triangulo invertido *
+for(let col=20; col>=0; col--){
+    for(let lin=0; lin<20-col; lin++){
+        document.write("&nbsp")
+    }
+    document.write("*")
+   for(let lin=0; lin<col; lin++) {
+       document.write("=")
+    
+    }
+    if (col !=0){
+        document.write("*")
+    }
+    
+    document.write("<br>")
+}*/
+
+var esq= 1
+var dir= 19
+
+for (var lin=1; lin<=10; lin++ ){
+    for( var col=1; col<=20; col++){
+    if(col==esq || col==dir)
+        document.write("*")
+    else 
+    document.write("=")
+
+}
+document.write("<br>");
+esq++;
+dir--;
 }
