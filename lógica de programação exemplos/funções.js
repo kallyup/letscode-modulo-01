@@ -21,3 +21,19 @@ console.log(sum());
 console.log(sum);
 console.log(sum(5));
 console.log(sum(5,10));
+
+
+//arrow function
+//De : function(){}
+//para; ()=>{}
+let numbers = [1,2,3]
+//numbers = numbers.forEach((value) =>{
+    //console.log(value)
+//})
+
+//numbers = numbers.filter((value)=>{
+    //return value
+//})
+numbers = numbers.filter(value => value <3);
+
+console.log(numbers);

@@ -1,45 +1,16 @@
-console.log("===carros===");
-// dica 1 ; apenas input
-//document.getElementById("modelo").value ="";
-//dica 2 tags em geral
-//document.getElementById("qtde").textContent = "";
-
-// critérios
-/* usar array
-1 ao cadastrar um carro, incrementar a quantidade
-2 limpar o campo par o p´roximo preenchimento
-3 ao alcançar 10 carros, exibilos na tela*/
-
-/*let carros= []
-let modelo= document.getElementById("modelo").value;
-let qtde = document.getElementById("qtde"). textContent=carros.length;
-
-
-function adicionar(){
- 
-    for (qtde=0; qtde<modelo; qtde++){
-        carros.push(document.getElementById("modelo").value);
-
-        document.getElementById("modelo").value="";
-    }
-
-    
-    if(carros.length == 10){
-        carros.forEach(function(valor){
-           document.write("=> ", valor, "<br>");
-        }
-    }
-}*/
-
 //entreda
 let carros= []
+let precoTotal= null
+
 function adicionar(){
 let modelo = document.getElementById("modelo");
 let ano = (document.getElementById("ano"));
 let cor = document.getElementById("cor");
 let situacao = document.getElementById("situacao");
+let preco = document.getElementById("preco");
+let total = document.getElementById("total");
+console.log(modelo.value, ano.value, cor.value, situacao.value, preco.value)
 
-console.log(modelo.value, ano.value, cor.value, situacao.value)
 //console.log(situacao);
 //console.log(situacao.options); //aray
 //console.log(situacao.options.selectedIndex)//indice
@@ -50,7 +21,9 @@ const carro = {
     modelo: modelo.value,
     ano: ano.value,
     cor: cor.value,
-    situacao: situacao.value
+    situacao: situacao.value,
+    preco: parseFloat(preco.value)
+    
 };
 
 console.log(carro);
@@ -58,14 +31,16 @@ carros.push(carro)
 
 //saida 
 console.table(carros)
+
+precoTotal= carros.reduce((total, carro) => total+carro.preco, 0);
+
+total.innerHTML=`Total = R$ ${precoTotal.toFixed(2)}`;
+
 //exibir na tela
 let lista = document.getElementById("lista");
-//let array = [] opção 1
-//lista.innerHTML=``; opção 2
+
 lista.innerHTML=carros
-.filter(function(carro){
-    return carro.ano=== '2015'
-})
+
 .map(function(carro){
     //debugger; para testar linha por linha
    // lista.innerHTML+=
@@ -74,6 +49,7 @@ lista.innerHTML=carros
     <td>${carro.ano}</td>
     <td>${carro.cor}</td>
     <td>${carro.situacao}</td>
+    <td>R$ ${carro.preco.toFixed(2)}</td>
 </tr>`;
  
 }).join("") // join transforma um array em string
@@ -82,7 +58,9 @@ lista.innerHTML=carros
  //limpar o campo  
 modelo.value='';
 ano.value='';
-cor.value='';
+//cor.value='';
+preco.value='';
+total.value='';
 //situacao.value='';
  // dar foco no primeiro campo
  modelo.focus();

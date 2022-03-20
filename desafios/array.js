@@ -21,10 +21,11 @@ for(let i=0; i< carros.length; i++){
 //usar se for reapoveirar
 
 function pegaCar(modelo,pos){
-console.log("pegou?", modelo, pos);
+//console.log("pegou?", modelo, pos);
 }
 
-carros.forEach(pegaCar)//pega a função e executa para cada item da lista
+carros.forEach(pegaCar)
+//pega a função e executa para cada item da lista
 //internamente:
 //pegaCar("Golf", 0); loop 0
 
@@ -33,7 +34,7 @@ carros.forEach(pegaCar)//pega a função e executa para cada item da lista
 // funcção anonima
 //usar se for expecífica dessa implementação
 
-carros.forEach(function(carro, i){
+/*carros.forEach(function(carro, i){
     console.log("funfa?", carro, i)
     document.write("=>", carro,i,"<br>")
 
@@ -41,3 +42,27 @@ carros.forEach(function(carro, i){
 
 console.log(carros);
 console.log(carros.length) //tamanho da lista
+
+
+
+numeros.forEach(function() {
+    console.log(arguments[0],)
+    
+});
+
+numeros.filter(function(numero){ //filter cria um nov array com um critério
+    console.log("filter", numero);
+    return numero < 25;
+})
+
+numeros.map(function(numero){ // map cria um novo array 
+    console.log("map", numero)
+    return numero *5
+})*/
+
+//reduce
+const numeros = [32, 21, 25, 17, 1];
+console.log(numeros.reduce(function(privious,current,index, array){
+    console.log("reduce?",privious, "cur", current, "ind;", index, array)
+})
+)
